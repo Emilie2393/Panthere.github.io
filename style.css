@@ -306,6 +306,12 @@ a:hover {
     line-height: 0.4em;
 }
 
+.col-sm-12 p{
+    font-size: 1.6em;
+    margin-left: 24%;
+    margin-right: 24%;
+}
+
 
 
 #bloc-1-hero h1 {
