@@ -272,6 +272,14 @@ a:hover {
     margin-top: 80px;
 }
 
+.row h2{
+    font-size: 1.6em;
+    margin-left: 13%;
+    margin-right: 13%;
+    line-height: 1em;
+    word-spacing: -0.1em;
+}
+
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
@@ -282,6 +290,23 @@ a:hover {
     padding-right: 0;
     padding-left: 0;
 }
+
+.col-xs-12 :nth-child(1){
+    margin-right: 18%;
+    margin-left: 18%;
+    font-size: 1.4em;
+    line-height: 1.1em;
+    font-style: italic;
+}
+
+.col-xs-12 :nth-child(2){
+    margin-right: 16%;
+    margin-left: 16%;
+    font-size: 1.4em;
+    line-height: 0.4em;
+}
+
+
 
 #bloc-1-hero h1 {
     font-size: 32px;
