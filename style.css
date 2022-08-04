@@ -283,9 +283,7 @@ a:hover {
 
 .row h2{
     font-size: 1.6em;
-    margin-left: 13%;
-    margin-right: 13%;
-    line-height: 1em;
+    line-height: 1.3em;
     word-spacing: -0.1em;
 }
 
@@ -301,9 +299,9 @@ a:hover {
 }
 
 .col-xs-12 :nth-child(1){
-    margin-right: 8%;
-    margin-left: 8%;
-    font-size: 1.45em;
+    margin-right: 9%;
+    margin-left: 9%;
+    font-size: 1.4em;
     line-height: 1.1em;
     font-style: italic;
 }
@@ -311,14 +309,8 @@ a:hover {
 .col-xs-12 :nth-child(2){
     margin-right: 16%;
     margin-left: 16%;
-    font-size: 1.4em;
+    font-size: 1.35em;
     line-height: 0.4em;
-}
-
-.col-sm-12 p{
-    font-size: 1.6em;
-    margin-left: 24%;
-    margin-right: 24%;
 }
 
 
@@ -743,9 +735,6 @@ a{
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
-}
 
 .tight-width-whitespace {
     max-width: 600px;
