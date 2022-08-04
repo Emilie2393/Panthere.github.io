@@ -292,9 +292,9 @@ a:hover {
 }
 
 .col-xs-12 :nth-child(1){
-    margin-right: 18%;
-    margin-left: 18%;
-    font-size: 1.4em;
+    margin-right: 8%;
+    margin-left: 8%;
+    font-size: 1.45em;
     line-height: 1.1em;
     font-style: italic;
 }
@@ -333,7 +333,8 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
+    height: 40px;
+    width: 216.88px;
     margin: 0 5px 0 0;
     display: inline;
 }
@@ -348,15 +349,19 @@ a:hover {
 
 .navbar .nav {
     padding-top: 2px;
-    margin-right: -16px;
+    margin-right: 60px;
     float: right;
     z-index: 1;
 }
 
+
+
 .nav > li {
     float: left;
     margin-top: 4px;
+    margin-right: 30px;
     font-size: 16px;
+    
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -559,6 +564,21 @@ button {
 .showScrollTop {
     font-size: 14px;
     opacity: 1;
+}
+
+.col-sm-6 img{
+    width: 270px;
+    height: 270px;
+}
+
+.col-sm-6 source{
+    width: 270px;
+    height: 270px;
+}
+
+.col-sm-12 img{
+    width: 100px;
+    height: 100px;
 }
 
 a[data-lightbox] {
@@ -770,6 +790,7 @@ h4 {
     color: #FFFFFF!important;
 }
 
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -802,7 +823,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #b15e38;
 }
 
 .tc-white {
@@ -842,18 +863,21 @@ h4 {
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
+
 }
 
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
+
 }
 
 .bg-banniere {
     background-image: url("img/agence-la-panthere.jpg");
+
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -993,8 +1017,8 @@ h4 {
         box-shadow: none;
     }
     .navbar-brand img {
-        max-height: 40px;
-        width: auto;
+        height: 40px;
+        width: 216.88px;
     }
     .nav-invert .navbar-header {
         float: none;
