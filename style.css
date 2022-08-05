@@ -307,8 +307,6 @@ a:hover {
 }
 
 .col-xs-12 :nth-child(2){
-    margin-right: 16%;
-    margin-left: 16%;
     font-size: 1.35em;
     line-height: 0.4em;
 }
@@ -553,10 +551,13 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
 
 .scrollToTop span {
     margin-top: 6px;
@@ -564,7 +565,6 @@ button {
 
 .showScrollTop {
     font-size: 14px;
-    opacity: 1;
 }
 
 .col-sm-6 img{
@@ -836,7 +836,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #b15e38;
     color: #FFFFFF!important;
 }
 
