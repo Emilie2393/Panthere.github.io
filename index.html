@@ -12,8 +12,8 @@
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 	
     
-	<script src="./js/jquery-2.1.0.js"></script>
-	<script src="./js/bootstrap.js"></script>
+	<script src="./js/jquery-2.1.0.js" defer></script>
+	<script src="./js/bootstrap.js" defer></script>
 	<!-- <script src="./js/blocs.min.js"></script>
 	<script src="./js/jquery.touchSwipe.min.js" defer></script>
 	<script src="./js/gmaps.min.js"></script> -->
@@ -63,7 +63,11 @@
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace">
 			<div class="col-sm-12">
-				<img src="img/logo.png" class="center-block image-resize-mode" alt="Logo tête de panthère sur fonds blanc" />
+				<picture>
+					<source srcset="img/logo.webp" type="image/webp">
+					<source srcset="img/logo.jpg" type="image/jpg">
+					<img src="img/logo.jpg" class="center-block image-resize-mode" alt="Logo tête de panthère sur fonds blanc">
+				</picture>
 				<h1 class="text-center hero-bloc-text tc-white ">
 					Agence La Panthère
 				</h1>
@@ -156,7 +160,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12 text-center">
-				<p> Nous travaillons avec beaucoup de clients, voici nos réalisations.</p>
+				<p> Nous travaillons avec beaucoup de clients, <br>voici nos réalisations.</p>
 			</div>
 		</div>
 		<div class="row tight-width-whitespace portfolio-row">
